@@ -1,0 +1,77 @@
+﻿body {
+	margin: 0px; padding: 0px;	
+	font-family: sans-serif;
+	background-color: #ff8;
+}
+h1 {
+	color: #309;
+	text-align: center;
+	font-size: 3em;
+}
+ul {
+	list-style-type: square;
+	color: #309;	
+}
+img {
+	border: 2px solid #f00;
+	display: block;
+	margin-top: 0; margin-right: auto; margin-bottom: 25px; margin-left: auto;
+}
+/* Stilar för tabellen */
+.borderless {			
+	border-spacing: 0;
+}
+.services {
+	border: 2px solid #d3d3d3;
+	background:#fff;
+	width: 96%;
+	margin: 5% auto 2em;
+	border-radius: 5px;					
+}
+thead {
+	font-size: 150%;
+}
+tfoot {
+	font-size: 150%;
+}
+th, td {
+	padding: 18px 28px 18px;					
+}
+th {
+	padding-top: 22px;
+	background: #ddd;
+	text-align: left;
+}
+td {
+	border-top: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	/* Inte runtom, eftersom vi inte vill ha dubbel bredd */
+	text-align: right;
+}
+tr:hover {
+	background-color: #ff9b73;
+}
+/* Stilar för innehållsspalten */
+div#content {
+	border-top: 2px solid #069; border-bottom: 1px solid #069;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 600px;
+	padding-left: 0.8em; padding-right: 0.8em; 
+}
+div#content ul {
+	font-size: 1.6em;
+}
+/* Stilar för navigeringsfältet */
+div#nav {	
+	position: absolute; left: 0px; top: 0px; width: 150px;
+	margin-top: 30px; margin-left: 15px;
+}
+
+div#nav ul {list-style-type:none;}
+div#content h1 {
+	color: #309;
+	text-align: center;
+	font-size: 3em;
+}
